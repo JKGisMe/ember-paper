@@ -21,6 +21,24 @@ $foreground-dark: (
 $foreground-dark-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4), -1px -1px 0px rgba(0, 0, 0, 0.4);
 $foreground-light-shadow: none;
 
+$color-deep-red: (
+  '50': #ef9a9a,
+  '100': #e57373,
+  '200': #E34848,
+  '300': #ef5350,
+  '400': #D41C1C,
+  '500': #AF0B0B,
+  '600': #910000,
+  '700': #6B0000,
+  '800': #530000,
+  '900': #370000,
+  'A100': #ff8a80,
+  'A200': #ff5252,
+  'A400': #ff1744,
+  'A700': #d50000,
+  'contrast': $light-contrast-color
+);
+
 $color-red: (
   '50': #ffebee,
   '100': #ffcdd2,
@@ -424,6 +442,7 @@ $shades: (
 
 $colors: (
   'red': $color-red,
+  'deep-red': $color-deep-red,
   'pink': $color-pink,
   'purple': $color-purple,
   'deep-purple': $color-deep-purple,
